@@ -1,0 +1,6 @@
+config:
+  aws:profile: prodwrite
+  aws:region: eu-central-1
+  internal-thumbnail-infra:lambda-function-name: internal-thumbnail-stage
+  internal-thumbnail-infra:environment: stage
+  internal-thumbnail-infra:log-retention-days: "14"

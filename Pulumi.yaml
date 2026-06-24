@@ -1,0 +1,6 @@
+name: internal-thumbnail-infra
+description: Infrastructure as Code for internal-thumbnail Lambda functions
+runtime:
+  name: python
+  options:
+    virtualenv: venv
